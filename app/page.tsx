@@ -4,7 +4,7 @@ import { Link } from "@nextui-org/react";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-5xl px-6 [&>section]:border-b [&>section]:py-8">
+    <main className="mx-auto max-w-5xl px-6 [&>section]:border-t [&>section]:py-8">
       <Hero />
 
       <Section title="Supervisor">
