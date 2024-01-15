@@ -1,5 +1,7 @@
 import React from "react";
 import { Card, CardBody, Image, Link } from "@nextui-org/react";
+import resolvePath from "@/utils/resolvePath";
+import { resolve } from "path";
 
 export default function Hero() {
   return (
@@ -14,7 +16,7 @@ export default function Hero() {
             <Image
               alt="Name"
               className="object-cover"
-              src="/zqc.jpg"
+              src={resolvePath("/zqc.jpg")}
             />
           </div>
 
@@ -52,14 +54,14 @@ export default function Hero() {
           <div className="relative col-span-6 flex flex-col items-center justify-between md:col-span-3">
             <Image
               alt="Name"
-              src="/lamda.jpg"
+              src={resolvePath("/lamda.jpg")}
               width="100%"
               radius="sm"
             />
             <Image
               alt="Name"
               className="mx-auto text-center"
-              src="/nju.jpg"
+              src={resolvePath("/nju.jpg")}
               width="80%"
               radius="sm"
             />
