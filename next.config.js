@@ -8,6 +8,7 @@ const nextConfig = {
     return config;
   },
   basePath: "/zhengqc",
+  assetPrefix: "/zhengqc/",
   trailingSlash: true,
   images: {
     unoptimized: true,
