@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
 const { resolve } = require("path");
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
   webpack(config) {
@@ -8,7 +8,6 @@ const nextConfig = {
     return config;
   },
   basePath: "/zhengqc",
-  assetPrefix: "/zhengqc",
   trailingSlash: true,
   images: {
     unoptimized: true,
