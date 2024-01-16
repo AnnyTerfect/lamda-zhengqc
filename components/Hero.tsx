@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, CardBody, Image, Link } from "@nextui-org/react";
 import resolvePath from "@/utils/resolvePath";
-import { resolve } from "path";
 
 export default function Hero() {
   return (
@@ -16,7 +15,7 @@ export default function Hero() {
             <Image
               alt="Name"
               className="object-cover"
-              src={resolvePath("/zqc.jpg")}
+              src="./zqc.jpg"
             />
           </div>
 
@@ -26,20 +25,36 @@ export default function Hero() {
 
               <p>
                 Ph.D. Student,{" "}
-                <Link href="https://lamda.nju.edu.cn/">LAMDA Grouop</Link>
+                <Link
+                  href="https://www.lamda.nju.edu.cn/"
+                  target="_blank"
+                >
+                  LAMDA Grouop
+                </Link>
                 <br />
-                <Link href="https://ai.nju.edu.cn/">
+                <Link
+                  href="https://ai.nju.edu.cn/"
+                  target="_blank"
+                >
                   Department of Artificial Intelligence
                 </Link>
                 <br />
-                <Link href="https://keysoftlab.nju.edu.cn/">
+                <Link
+                  href="https://keysoftlab.nju.edu.cn/"
+                  target="_blank"
+                >
                   National Key Laboratory for Novel Software Technology
                 </Link>
               </p>
 
               <p>
                 Supervisor:{" "}
-                <Link href="https://cs.nju.edu.cn/jiangy/">Yuan Jiang</Link>
+                <Link
+                  href="https://www.lamda.nju.edu.cn/jiangy/"
+                  target="_blank"
+                >
+                  Yuan Jiang
+                </Link>
               </p>
 
               <p>
@@ -54,14 +69,14 @@ export default function Hero() {
           <div className="relative col-span-6 flex flex-col items-center justify-between md:col-span-3">
             <Image
               alt="Name"
-              src={resolvePath("/lamda.jpg")}
+              src="./lamda.jpg"
               width="100%"
               radius="sm"
             />
             <Image
               alt="Name"
               className="mx-auto text-center"
-              src={resolvePath("/nju.jpg")}
+              src="./nju.jpg"
               width="80%"
               radius="sm"
             />

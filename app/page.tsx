@@ -10,7 +10,12 @@ export default function Home() {
       <Section title="Supervisor">
         <p>
           Professor:{" "}
-          <Link href="https://cs.nju.edu.cn/jiangy/">Yuan Jiang</Link>
+          <Link
+            href="https://www.lamda.nju.edu.cn/jiangy/"
+            target="_blank"
+          >
+            Yuan Jiang
+          </Link>
         </p>
       </Section>
 
@@ -18,22 +23,48 @@ export default function Home() {
         <ul className="list-disc pl-4">
           <li>
             Currently a Ph.D. student at{" "}
-            <Link href="https://ai.nju.edu.cn/">
+            <Link
+              href="https://ai.nju.edu.cn/"
+              target="_blank"
+            >
               Department of Artificial Intelligence
             </Link>
-            in <Link href="https://www.nju.edu.cn/">Nanjing University</Link>
+            in{" "}
+            <Link
+              href="https://www.nju.edu.cn/"
+              target="_blank"
+            >
+              Nanjing University
+            </Link>
             and a member of{" "}
-            <Link href="https://lamda.nju.edu.cn/">LAMDA Group</Link>, led by
-            Professor{" "}
-            <Link href="https://cs.nju.edu.cn/zhouzh/">Zhi-Hua Zhou</Link>.
+            <Link
+              href="https://www.lamda.nju.edu.cn/"
+              target="_blank"
+            >
+              LAMDA Group
+            </Link>
+            , led by Professor{" "}
+            <Link
+              href="https://cs.nju.edu.cn/zhouzh/"
+              target="_blank"
+            >
+              Zhi-Hua Zhou
+            </Link>
+            .
           </li>
           <li>
             I got my B.S. degree in <b>Statistics</b> from{" "}
-            <Link href="http://maths.hust.edu.cn/">
+            <Link
+              href="http://maths.hust.edu.cn/"
+              target="_blank"
+            >
               School of Mathematics and Statistics
             </Link>
             ,{" "}
-            <Link href="https://www.hust.edu.cn/">
+            <Link
+              href="https://www.hust.edu.cn/"
+              target="_blank"
+            >
               Huazhong University of Science and Technology
             </Link>
             , China in June 2020.
