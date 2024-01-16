@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardBody, Image, Link } from "@nextui-org/react";
-import resolvePath from "@/utils/resolvePath";
 
 export default function Hero() {
   return (
